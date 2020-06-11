@@ -1,0 +1,17 @@
+$color: black;
+%border {
+    border: 1px solid $color;
+}
+
+
+table
+{
+    @extend %border;
+    border-collapse: collapse;
+
+    td
+    {
+        @extend %border;
+        background: white;
+    }
+}

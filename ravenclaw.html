@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <link href="sassstyles.css" rel="stylesheet">
+        <script src = "add.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Ravenclaw</title>
+    </head>
+    <body>
+        <h1 style="text-align:center" class = "blue">Welcome to Ravenclaw!</h1>
+        <img id = "normimage" src = "ravenclaw_crest.jpg" alt = "Image couldn't load.">
+        <table class = "centertable col-6">
+            <tr>
+                <th class = "blue">
+                    Notable members of Ravenclaw
+                </th>
+            </tr>
+            <tr>
+                <td class = "blue">Filius Flitwick</td>
+            </tr>
+        </table>
+        <p style="text-align:center" class = "blue">Would you like to join Ravenclaw?</p>
+        <div style="text-align:center">
+            <form onsubmit="addname(); return false;">
+                <input type = "text" id = "name">
+                <input type = "submit" value = "Submit Name">
+            </form>
+        </div>
+        Other houses:
+        <ul class="list-group">
+            <li class="list-group-item"> Visit <a href = "index.html"> Gryffindor</a> </li>
+            <li class="list-group-item"> Visit <a href = "slytherin.html"> Slytherin</a> </li>
+            <li class="list-group-item"> Visit <a href = "hufflepuff.html"> Hufflepuff</a> </li>
+        </ul>
+        
+    </body>
+</html>

@@ -1,0 +1,1 @@
+In this project I will have four different webpages, each one representing a house from the Harry Potter movies. On each page, you can see the house crest, along with a table that includes names of people in that house. You can also submit your name to try and become a member of that house. Towards the end of the page you can see links that lead to the other houses.
